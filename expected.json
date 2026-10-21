@@ -1,0 +1,827 @@
+{
+ "cases": [
+  {
+   "fn": "average",
+   "args": [
+    "5",
+    "30"
+   ],
+   "expect": "A 5 V rail at 30% duty averages 1.5 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "300",
+    "1000"
+   ],
+   "expect": "A 300 µs on-time in a 1000 µs period is 30% duty at 1000 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "8",
+    "5"
+   ],
+   "expect": "An 8-bit counter on a 5 V rail gives 256 steps of 0.39%, or 19.53 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "11.38",
+    "87.79"
+   ],
+   "expect": "A 11.38 V rail at 87.79% duty averages 9.99 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "939478",
+    "853943"
+   ],
+   "expect": "A 939478 µs on-time in a 853943 µs period is 110.02% duty at 1.17 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "4",
+    "0.77"
+   ],
+   "expect": "A 4-bit counter on a 0.77 V rail gives 16 steps of 6.25%, or 48.13 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "63.5",
+    "72.54"
+   ],
+   "expect": "A 63.5 V rail at 72.54% duty averages 46.06 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "105624",
+    "717350"
+   ],
+   "expect": "A 105624 µs on-time in a 717350 µs period is 14.72% duty at 1.39 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "17",
+    "62.65"
+   ],
+   "expect": "A 17-bit counter on a 62.65 V rail gives 131072 steps of 0%, or 0.48 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "95.87",
+    "43.35"
+   ],
+   "expect": "A 95.87 V rail at 43.35% duty averages 41.56 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "551295",
+    "924531"
+   ],
+   "expect": "A 551295 µs on-time in a 924531 µs period is 59.63% duty at 1.08 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "18",
+    "43.85"
+   ],
+   "expect": "An 18-bit counter on a 43.85 V rail gives 262144 steps of 0%, or 0.17 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "45.45",
+    "20.11"
+   ],
+   "expect": "A 45.45 V rail at 20.11% duty averages 9.14 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "666585",
+    "421462"
+   ],
+   "expect": "A 666585 µs on-time in a 421462 µs period is 158.16% duty at 2.37 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "1",
+    "75.51"
+   ],
+   "expect": "A 1-bit counter on a 75.51 V rail gives 2 steps of 50%, or 37755 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "34.66",
+    "42.47"
+   ],
+   "expect": "A 34.66 V rail at 42.47% duty averages 14.72 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "866294",
+    "354816"
+   ],
+   "expect": "A 866294 µs on-time in a 354816 µs period is 244.15% duty at 2.82 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "15",
+    "68.88"
+   ],
+   "expect": "A 15-bit counter on a 68.88 V rail gives 32768 steps of 0%, or 2.1 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "43.27",
+    "81.95"
+   ],
+   "expect": "A 43.27 V rail at 81.95% duty averages 35.46 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "591794",
+    "918035"
+   ],
+   "expect": "A 591794 µs on-time in a 918035 µs period is 64.46% duty at 1.09 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "4",
+    "50.55"
+   ],
+   "expect": "A 4-bit counter on a 50.55 V rail gives 16 steps of 6.25%, or 3159.38 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "43.29",
+    "52.23"
+   ],
+   "expect": "A 43.29 V rail at 52.23% duty averages 22.61 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "479432",
+    "277961"
+   ],
+   "expect": "A 479432 µs on-time in a 277961 µs period is 172.48% duty at 3.6 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "2",
+    "10.25"
+   ],
+   "expect": "A 2-bit counter on a 10.25 V rail gives 4 steps of 25%, or 2562.5 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "58.05",
+    "59.1"
+   ],
+   "expect": "A 58.05 V rail at 59.1% duty averages 34.31 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "101042",
+    "844735"
+   ],
+   "expect": "A 101042 µs on-time in a 844735 µs period is 11.96% duty at 1.18 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "7",
+    "36.31"
+   ],
+   "expect": "A 7-bit counter on a 36.31 V rail gives 128 steps of 0.78%, or 283.67 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "83.98",
+    "49.58"
+   ],
+   "expect": "A 83.98 V rail at 49.58% duty averages 41.64 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "56833",
+    "764161"
+   ],
+   "expect": "A 56833 µs on-time in a 764161 µs period is 7.44% duty at 1.31 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "11",
+    "53.24"
+   ],
+   "expect": "An 11-bit counter on a 53.24 V rail gives 2048 steps of 0.05%, or 26 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "24.19",
+    "51.58"
+   ],
+   "expect": "A 24.19 V rail at 51.58% duty averages 12.48 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "658221",
+    "972080"
+   ],
+   "expect": "A 658221 µs on-time in a 972080 µs period is 67.71% duty at 1.03 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "9",
+    "98.7"
+   ],
+   "expect": "A 9-bit counter on a 98.7 V rail gives 512 steps of 0.2%, or 192.77 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "13.42",
+    "48.47"
+   ],
+   "expect": "A 13.42 V rail at 48.47% duty averages 6.5 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "479518",
+    "653178"
+   ],
+   "expect": "A 479518 µs on-time in a 653178 µs period is 73.41% duty at 1.53 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "16",
+    "29.45"
+   ],
+   "expect": "A 16-bit counter on a 29.45 V rail gives 65536 steps of 0%, or 0.45 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "47.38",
+    "47.22"
+   ],
+   "expect": "A 47.38 V rail at 47.22% duty averages 22.37 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "774509",
+    "172681"
+   ],
+   "expect": "A 774509 µs on-time in a 172681 µs period is 448.52% duty at 5.79 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "5",
+    "51.89"
+   ],
+   "expect": "A 5-bit counter on a 51.89 V rail gives 32 steps of 3.13%, or 1621.56 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "67.33",
+    "67.29"
+   ],
+   "expect": "A 67.33 V rail at 67.29% duty averages 45.31 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "245831",
+    "466112"
+   ],
+   "expect": "A 245831 µs on-time in a 466112 µs period is 52.74% duty at 2.15 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "23",
+    "90.63"
+   ],
+   "expect": "A 23-bit counter on a 90.63 V rail gives 8388608 steps of 0%, or 0.01 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "48.47",
+    "72.37"
+   ],
+   "expect": "A 48.47 V rail at 72.37% duty averages 35.08 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "67173",
+    "463731"
+   ],
+   "expect": "A 67173 µs on-time in a 463731 µs period is 14.49% duty at 2.16 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "24",
+    "55"
+   ],
+   "expect": "A 24-bit counter on a 55 V rail gives 16777216 steps of 0%, or 0 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "95.44",
+    "90.73"
+   ],
+   "expect": "A 95.44 V rail at 90.73% duty averages 86.59 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "874246",
+    "338537"
+   ],
+   "expect": "A 874246 µs on-time in a 338537 µs period is 258.24% duty at 2.95 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "9",
+    "7.88"
+   ],
+   "expect": "A 9-bit counter on a 7.88 V rail gives 512 steps of 0.2%, or 15.39 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "42.28",
+    "72.9"
+   ],
+   "expect": "A 42.28 V rail at 72.9% duty averages 30.82 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "766737",
+    "155286"
+   ],
+   "expect": "A 766737 µs on-time in a 155286 µs period is 493.76% duty at 6.44 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "14",
+    "24.21"
+   ],
+   "expect": "A 14-bit counter on a 24.21 V rail gives 16384 steps of 0.01%, or 1.48 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "59.61",
+    "87.56"
+   ],
+   "expect": "A 59.61 V rail at 87.56% duty averages 52.19 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "668541",
+    "661427"
+   ],
+   "expect": "A 668541 µs on-time in a 661427 µs period is 101.08% duty at 1.51 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "16",
+    "98.3"
+   ],
+   "expect": "A 16-bit counter on a 98.3 V rail gives 65536 steps of 0%, or 1.5 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "78.46",
+    "97.18"
+   ],
+   "expect": "A 78.46 V rail at 97.18% duty averages 76.25 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "859437",
+    "294928"
+   ],
+   "expect": "A 859437 µs on-time in a 294928 µs period is 291.41% duty at 3.39 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "4",
+    "17.01"
+   ],
+   "expect": "A 4-bit counter on a 17.01 V rail gives 16 steps of 6.25%, or 1063.13 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "98.36",
+    "43.87"
+   ],
+   "expect": "A 98.36 V rail at 43.87% duty averages 43.15 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "967984",
+    "318873"
+   ],
+   "expect": "A 967984 µs on-time in a 318873 µs period is 303.56% duty at 3.14 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "23",
+    "55.81"
+   ],
+   "expect": "A 23-bit counter on a 55.81 V rail gives 8388608 steps of 0%, or 0.01 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "13.04",
+    "73.87"
+   ],
+   "expect": "A 13.04 V rail at 73.87% duty averages 9.63 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "486037",
+    "578589"
+   ],
+   "expect": "A 486037 µs on-time in a 578589 µs period is 84% duty at 1.73 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "3",
+    "36.42"
+   ],
+   "expect": "A 3-bit counter on a 36.42 V rail gives 8 steps of 12.5%, or 4552.5 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "97.03",
+    "38.84"
+   ],
+   "expect": "A 97.03 V rail at 38.84% duty averages 37.69 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "259389",
+    "418008"
+   ],
+   "expect": "A 259389 µs on-time in a 418008 µs period is 62.05% duty at 2.39 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "23",
+    "28.17"
+   ],
+   "expect": "A 23-bit counter on a 28.17 V rail gives 8388608 steps of 0%, or 0 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "35.56",
+    "30.21"
+   ],
+   "expect": "A 35.56 V rail at 30.21% duty averages 10.74 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "108331",
+    "306643"
+   ],
+   "expect": "A 108331 µs on-time in a 306643 µs period is 35.33% duty at 3.26 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "9",
+    "26.86"
+   ],
+   "expect": "A 9-bit counter on a 26.86 V rail gives 512 steps of 0.2%, or 52.46 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "76.16",
+    "74.26"
+   ],
+   "expect": "A 76.16 V rail at 74.26% duty averages 56.56 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "511592",
+    "829160"
+   ],
+   "expect": "A 511592 µs on-time in a 829160 µs period is 61.7% duty at 1.21 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "19",
+    "7.83"
+   ],
+   "expect": "A 19-bit counter on a 7.83 V rail gives 524288 steps of 0%, or 0.01 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "89.7",
+    "53.85"
+   ],
+   "expect": "A 89.7 V rail at 53.85% duty averages 48.3 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "764480",
+    "609227"
+   ],
+   "expect": "A 764480 µs on-time in a 609227 µs period is 125.48% duty at 1.64 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "22",
+    "95.35"
+   ],
+   "expect": "A 22-bit counter on a 95.35 V rail gives 4194304 steps of 0%, or 0.02 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "4.9",
+    "98.23"
+   ],
+   "expect": "A 4.9 V rail at 98.23% duty averages 4.81 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "898731",
+    "292338"
+   ],
+   "expect": "A 898731 µs on-time in a 292338 µs period is 307.43% duty at 3.42 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "7",
+    "48.52"
+   ],
+   "expect": "A 7-bit counter on a 48.52 V rail gives 128 steps of 0.78%, or 379.06 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "45.62",
+    "57.73"
+   ],
+   "expect": "A 45.62 V rail at 57.73% duty averages 26.34 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "566704",
+    "632640"
+   ],
+   "expect": "A 566704 µs on-time in a 632640 µs period is 89.58% duty at 1.58 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "6",
+    "24.26"
+   ],
+   "expect": "A 6-bit counter on a 24.26 V rail gives 64 steps of 1.56%, or 379.06 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "3.32",
+    "62.48"
+   ],
+   "expect": "A 3.32 V rail at 62.48% duty averages 2.07 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "470829",
+    "327113"
+   ],
+   "expect": "A 470829 µs on-time in a 327113 µs period is 143.93% duty at 3.06 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "9",
+    "18.07"
+   ],
+   "expect": "A 9-bit counter on a 18.07 V rail gives 512 steps of 0.2%, or 35.29 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "18.47",
+    "19.28"
+   ],
+   "expect": "A 18.47 V rail at 19.28% duty averages 3.56 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "278984",
+    "177070"
+   ],
+   "expect": "A 278984 µs on-time in a 177070 µs period is 157.56% duty at 5.65 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "23",
+    "15.52"
+   ],
+   "expect": "A 23-bit counter on a 15.52 V rail gives 8388608 steps of 0%, or 0 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "44.2",
+    "11.94"
+   ],
+   "expect": "A 44.2 V rail at 11.94% duty averages 5.28 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "185199",
+    "492725"
+   ],
+   "expect": "A 185199 µs on-time in a 492725 µs period is 37.59% duty at 2.03 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "10",
+    "40.92"
+   ],
+   "expect": "A 10-bit counter on a 40.92 V rail gives 1024 steps of 0.1%, or 39.96 mV each."
+  },
+  {
+   "fn": "average",
+   "args": [
+    "26.59",
+    "84.1"
+   ],
+   "expect": "A 26.59 V rail at 84.1% duty averages 22.36 V."
+  },
+  {
+   "fn": "duty",
+   "args": [
+    "146386",
+    "231088"
+   ],
+   "expect": "A 146386 µs on-time in a 231088 µs period is 63.35% duty at 4.33 Hz."
+  },
+  {
+   "fn": "steps",
+   "args": [
+    "23",
+    "1.22"
+   ],
+   "expect": "A 23-bit counter on a 1.22 V rail gives 8388608 steps of 0%, or 0 mV each."
+  }
+ ],
+ "errors": [
+  [
+   "average",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "average",
+   [
+    "5",
+    "0"
+   ]
+  ],
+  [
+   "average",
+   [
+    "5",
+    "100.001"
+   ]
+  ],
+  [
+   "average",
+   [
+    "100.001",
+    "30"
+   ]
+  ],
+  [
+   "duty",
+   [
+    "0",
+    "1000"
+   ]
+  ],
+  [
+   "duty",
+   [
+    "300",
+    "0"
+   ]
+  ],
+  [
+   "duty",
+   [
+    "1.5",
+    "1000"
+   ]
+  ],
+  [
+   "steps",
+   [
+    "0",
+    "5"
+   ]
+  ],
+  [
+   "steps",
+   [
+    "25",
+    "5"
+   ]
+  ],
+  [
+   "steps",
+   [
+    "8",
+    "0"
+   ]
+  ],
+  [
+   "steps",
+   [
+    "1.5",
+    "5"
+   ]
+  ]
+ ]
+}
